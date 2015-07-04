@@ -527,7 +527,7 @@ a {
     max-width: 38rem;
     margin: 0.5rem auto;
 }
-.social > li {
+.icons > li {
     display: inline-block;
     padding-right: 1.5rem;
 }
@@ -564,9 +564,22 @@ section > h1 {
     float: right;
     margin-top: 0;
 }
-.footer {
+.social {
     background-color: #58534A;/*Was: #4E4C59*/
     padding: 4rem 0;
+}
+.social > .content-footer .icons li {
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #eaebec;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 0 5px;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social > .content-footer .icons {
+    padding-left: 0;
 }
 .content-footer a:visited,
 .content-footer a:hover {
@@ -580,7 +593,7 @@ section > h1 {
   .masthead {
     padding: 3rem 0;
   }
-  .footer {
+  .social {
     padding: 2rem 1rem;
   }
 }
